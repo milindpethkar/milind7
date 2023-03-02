@@ -39,12 +39,20 @@ function Main() {
         </div>
       </div>
       <div></div>
-      <div>
-        <img
+      <div className='flex p-10'>
+       <a className='w-1/2 '>
+       <img
           className="rounded-lg"
           src="https://www.infosys.com/content/dam/infosys-web/en/future-work-report.jpg"
           alt=""
         />
+       </a>
+       <a className='w-1/2 p-10 text-center bg-gray-300 hover:bg-blue-700 hover:text-white'>  <h1 className="text-lg text-gray-700 hover:text-white ">
+            Maharashtra is a state in the western peninsular region of India
+            occupying a substantial portion of the Deccan Plateau. Maharashtra
+            is the second-most populous state in India and the second-most
+            populous country subdivision globally.
+          </h1></a>
       </div>
       <div className="w-full relative text-center grid justify-center items-center">
         <img
