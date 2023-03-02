@@ -23,11 +23,11 @@ function Main() {
           height: '100vh',
         }}
       >
-        <h1 className="text-5xl text-white ">
+        {/* <h1 className="text-5xl text-white ">
           The Future of
           <br />
           <span> Work 2023 Report</span>
-        </h1>
+        </h1> */}
         <div className="p-16 md:grid place-items-center pt-48 ">
           <Link to="/main">
             <img
