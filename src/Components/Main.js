@@ -11,7 +11,7 @@ import { useHistory } from 'react-router-dom';
 function Main() {
   return (
     <div>
-      <h1>Hello this is Main dix</h1>
+      {/* <h1>Hello this is Main dix</h1> */}
       <div
         className="rounded-lg "
         style={{

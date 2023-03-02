@@ -27,7 +27,7 @@ function Bhondu() {
             <h1 className="text-3xl text-pink-400 hover:text-white  font-bold ">Margaret</h1>
           </div>
           <div
-            className=" w-1/2 md:hidden"
+            className="md:hidden"
           ><img  onClick={() => setToggle(!toggle)} className="w-10 h-10"  src="https://static.vecteezy.com/system/resources/previews/009/362/781/original/app-menu-icon-sign-symbol-design-free-png.png" alt="" />
            
            {toggle && ( <ul>
