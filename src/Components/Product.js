@@ -11,7 +11,7 @@ function Product() {
           <img className='rounded-sm ' src="https://assets.website-files.com/61e57244c283e5456130c457/61e945a0392884655da8bf78_step_illustr.svg" />
         </div>
         <div className=" w-1/2 md:p-24  ">
-          <h1 className="text-xl">Syllabus of courses</h1>
+          <h1 className="text-xl font-bold text-black">Syllabus of courses</h1>
           <h1 className="text-s">Videos from professionals</h1>
           <h1 className="text-sm">
             Maharashtra is a state in the western peninsular region of India
@@ -23,7 +23,7 @@ function Product() {
       </div>
       <div className="flex  content-cnter justify-center ">
         <div className=" w-1/2 md:p-24 ">
-          <h1 className="text-xl">Scholarship Exam</h1>
+          <h1 className="text-xl font-bold text-black">Scholarship Exam</h1>
           <h1 className="text-s">We Conduct the Exam of all State board</h1>
           <h1 className="text-sm">
             which had a mud fortification during this period, as well as an

@@ -11,7 +11,7 @@ function Services (){
 
   return <div className='pt-48 p-3'>
       <button onClick={() => navigate(-1)}>Back</button> 
-    <div className='bg-black grid text-center md: flex h-32 text-white content-cnter justify-center'>
+    <div className='bg-black hover:bg-white duration-1000 grid text-center md: flex h-32 text-white content-cnter justify-center'>
     <h1 className='font-bold'> Get your questions to ask our experts</h1>
     <div className=''> <div className='w-80 h-10 bg-white text-black flex rounded-sm m-10  gap-5 ' >
         <input className='w-80 h-10 bg-white text-black flex rounded-sm border-none  ' type="text" placeholder=' Write Your Questions Here'/>
@@ -30,7 +30,7 @@ function Services (){
       <h1 className='text-xs'>As a mission-driven organization, we're relentlessly pursuing our vision of a world where every learner can access education to unlock their potential, without the barriers of cost or location.</h1>
       <h1  className='text-xs'>The Chalukya dynasty ruled from the sixth to the eighth centuries CE, and the two prominent rulers were Pulakeshin II, who defeated the north Indian Emperor Harsha, and Vikramaditya II, who defeated the Arab invaders in the eighth century.</h1>
     <div className='py-5 px-5'>
-    <button className='bg-gray-700 w-24 text-white w-10 rounded-sm hover:text-lg '> Learn More <img src="" alt=""/></button>
+    <button className='bg-green-700 w-24 text-white w-10 rounded-sm hover:bg-orange-700 '> Learn More <img src="" alt=""/></button>
     </div>
     </div>
       </div>

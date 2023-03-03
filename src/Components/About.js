@@ -9,7 +9,7 @@ function About() {
   return (
     <div>
        <button onClick={() => navigate(-1)}>Back</button> 
-      <div className="md:px-32 gap-10">
+      <div className="md:px-32 gap-10 bg-gray-300">
         <div className="flex p-10 ">
           <div className="w-1/2 p-10">
             <h1 className="text-xl">Our Vision </h1>
