@@ -3,10 +3,12 @@ import './style.css';
 import { Route, Routes, BrowserRouter, Link } from 'react-router-dom';
 import Main from './Components/Main';
 import Contact from './Components/Contact';
+import Form from './Form17'
 import About from './Components/About';
 import Services from './Components/Services';
 import Product from './Components/Product';
 import Bhondu from './Bhondu';
+
 
 
 
@@ -27,6 +29,7 @@ export default function App() {
               <Route path='/about'element={<About/>} />
               <Route path='/contact' element={<Contact/>} />
               <Route path='/product' element={<Product/>} />
+              <Route path='/Form17' element={<Form/>} />
             </Routes>
             
          
