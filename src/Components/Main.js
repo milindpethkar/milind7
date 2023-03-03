@@ -39,7 +39,7 @@ function Main() {
         </div>
       </div>
       <div></div>
-      <div className='flex p-10'>
+      <div className='flex md:flex md:p-10'>
        <a className='w-1/2 '>
        <img
           className="rounded-lg"
@@ -47,7 +47,7 @@ function Main() {
           alt=""
         />
        </a>
-       <a className='w-1/2 p-10 text-center bg-gray-300 hover:bg-blue-700 hover:text-white'>  <h1 className="text-lg text-gray-700 hover:text-white ">
+       <a className='w-1/2  md:p-10 text-center bg-gray-300 hover:bg-blue-700 hover:text-white'>  <h1 className=" text-xs md:text-lg text-gray-700 hover:text-white ">
             Maharashtra is a state in the western peninsular region of India
             occupying a substantial portion of the Deccan Plateau. Maharashtra
             is the second-most populous state in India and the second-most
@@ -64,7 +64,7 @@ function Main() {
             <h1 className="text-2xl text-black pt-48 ">Experience</h1>
             <h1></h1>
             <a
-              className="mt-5 px-8 py-3 rounded-full bg-amber-400 hover:bg-amber-600 duration-300 pt-48"
+              className="mt-5  text-xs md:text-lg py-3 rounded-full bg-amber-400 hover:bg-amber-600 duration-300 pt-48"
               href="#"
             >
             Back in 2015, our founders noticed that the rapidly evolving industry required professionals to continuously upskill themselves as learning for professionals comes to a halt after entering a working space. This was when upGrad was formed to impact the lives of working professionals by helping them upskill while they work. With an endeavor to facilitate quality education to the future workforce through our programs, we continue to build online learning as interactive as a classroom setup.
